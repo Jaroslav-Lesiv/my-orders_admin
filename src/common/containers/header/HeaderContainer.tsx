@@ -1,9 +1,15 @@
-import React from 'react';
-import styled from 'styled-components';
+
+import styled from 'styled-components'
 
 
+export const ContentConteiner = styled.div`
+display:flex;
+width:100%;
+height:100%;
 
-export const SearchConteiner = styled.div`
+`
+
+export const SearchContainer = styled.div`
 width:300px;
 height:35px;
 display:flex;

@@ -1,12 +1,13 @@
-import React from 'react'
-import { SearchConteiner } from '../components/Search'
+
+
+import { SearchContainer } from '../../containers/header/HeaderContainer'
 
 
 export const Search = ({children, className}) =>{
     return(
-        <SearchConteiner>
+        <SearchContainer>
           <div className="icon-search"></div>
           <input placeholder="Search"></input>
-        </SearchConteiner>
+        </SearchContainer>
     )
 }

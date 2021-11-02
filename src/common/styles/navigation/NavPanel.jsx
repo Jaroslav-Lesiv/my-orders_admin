@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
-import { SIDEBAR_WIDTH} from '../variablse'
+import { SIDEBAR_WIDTH} from '../../constants/variablse'
 
 
 export const NavConteiner = styled.div`

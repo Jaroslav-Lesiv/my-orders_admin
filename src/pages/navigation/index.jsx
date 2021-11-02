@@ -1,6 +1,6 @@
 import React from 'react'
-import { NavConteiner } from '../../ui/components/NavPanel'
-import { NavItem } from '../../ui/core/navigation'
+import { NavConteiner } from '../../common/styles/navigation/NavPanel'
+import { NavItem } from '../../common/components/navigation/navigation'
 
 function NavPanel() {
     return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { NavItemConteiner } from '../components/NavPanel'
+import { NavItemConteiner } from '../../styles/navigation/NavPanel'
 
 
 

@@ -1,9 +1,9 @@
 import React from 'react'
-import { ControlIconConteiner } from '../../ui/components/Control'
-import { HeaderConteiner } from '../../ui/components/Header'
-import { Logo } from '../../ui/core/Logo'
-import { Control } from './Control'
-import { Search } from '../../ui/core/Search'
+import { ControlIconConteiner } from '../../common/styles/header/Control'
+import { HeaderConteiner } from '../../common/styles/header/Header'
+import { Logo } from '../../common/styles/logo/Logo'
+import { Control } from '../../common/components/header/Control'
+import { Search } from '../../common/components/search/Search'
 
 
 

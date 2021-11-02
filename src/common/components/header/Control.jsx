@@ -1,5 +1,5 @@
 import React from 'react'
-import { ControlIcon, ControlIconConteiner } from '../../ui/components/Control'
+import { ControlIcon, ControlIconConteiner } from '../../styles/header/Control'
 
 
 export const Control = ({children, className,}) =>{
