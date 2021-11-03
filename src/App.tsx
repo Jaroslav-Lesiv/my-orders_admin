@@ -1,17 +1,15 @@
-import React from 'react';
-import NavPanel from './pages/navigation';
+import SideBar from './source/pages/SideBar/SideBar';
+import { ContentConteiner } from './common/containers/header/HeaderContainer';
+import Header from './source/pages/Header/Header';
 
 import './assets/fonts/fontello/css/search.css';
-import Header from './pages/header/index';
-import { ContentConteiner } from './common/containers/header/HeaderContainer';
 
 function App() {
   return (
     <div>
       <Header />
       <ContentConteiner>
-        <NavPanel />
-        saasdasda
+        <SideBar />
       </ContentConteiner>
     </div>
   );
