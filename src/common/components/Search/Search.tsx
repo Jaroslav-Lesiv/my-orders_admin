@@ -1,7 +1,8 @@
 import { SearchContainer } from "../../styles/Search/Search"
+import React from 'react';
 
 
-export const Search = ({  children:any , className }) => {
+export const Search = ({  children,className }: any) => {
   return (
     <SearchContainer>
       <div className="icon-search"></div>

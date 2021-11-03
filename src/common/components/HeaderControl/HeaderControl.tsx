@@ -1,7 +1,7 @@
 import React from 'react';
 import { ControlIcon, ControlIconConteiner } from '../../styles/HeaderControl/Control';
 
-export const Control = ({ children, className }) => {
+export const HeaderControl = ({ children, className }: any) => {
   return (
     <ControlIconConteiner>
       <ControlIcon to="/pudge" className="icon-bell"></ControlIcon>

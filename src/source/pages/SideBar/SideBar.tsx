@@ -1,10 +1,12 @@
 import React from 'react';
 import { NavConteiner } from '../../../common/styles/SideBar/SideBar';
-import { NavItem, SideBarItem } from '../../../common/components/SideBarItem/SideBarItem';
+import { SideBarItem } from '../../../common/components/SideBarItem/SideBarItem';
+import { SIDEBAR_WIDTH } from '../../../common/constants/variablse';
 
 function SideBar() {
   return (
-    <NavConteiner>
+    <div style={{width:SIDEBAR_WIDTH,height:'100%'}}>
+          <NavConteiner>
       <div>
         <SideBarItem link="/dashboard" className="icon-gauge">
           Dasboard
@@ -26,6 +28,7 @@ function SideBar() {
         </SideBarItem>
       </div>
     </NavConteiner>
+    </div>
   );
 }
 
